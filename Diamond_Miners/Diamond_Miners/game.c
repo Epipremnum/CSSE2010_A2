@@ -4,9 +4,6 @@
  * Contains functions relating to the play of Diamond Miners
  *
  * Author: Luke Kamols
- * 
- * FOLD Top Level: CTRL K then still holding CTRL press 1
- * UNFOLD All: CTRL K then still holding CTRL press J
  */ 
 
 #include "game.h"

@@ -5,11 +5,7 @@
  *
  * Authors: Peter Sutton, Luke Kamols
  * Diamond Miners Inspiration: Daniel Cumming
- * Modified by THABO DIZWANI
- * 
- * FOLD Top Level: CTRL K then still holding CTRL press 1
- * UNFOLD All: CTRL K then still holding CTRL press J
- * 
+ * Modified by <YOUR NAME HERE>
  */ 
 
 #include <avr/io.h>
@@ -72,7 +68,7 @@ void start_screen(void) {
 	move_terminal_cursor(10,10);
 	printf_P(PSTR("Diamond Miners"));
 	move_terminal_cursor(10,12);
-	printf_P(PSTR("CSSE2010/7201 project by THABO DIZWANI 47055863"));
+	printf_P(PSTR("CSSE2010/7201 project by <your name here>"));
 	
 	// Output the static start screen and wait for a push button 
 	// to be pushed or a serial input of 's'
